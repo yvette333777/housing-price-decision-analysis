@@ -39,3 +39,29 @@ location are key drivers of housing prices.
 This model can help real estate agents or investors prioritize key
 factors when evaluating housing prices, rather than relying on intuition
 alone.
+
+## Feature Importance and Interpretation
+
+Feature importance analysis from the Random Forest model shows that
+median income (MedInc) is the most influential factor in housing price
+prediction, accounting for more than 50% of the total importance.
+This suggests that socioeconomic conditions dominate housing value
+determination.
+
+Average occupancy (AveOccup) is the second most important feature,
+indicating that residential density plays a significant role in price
+variation. Areas with higher occupancy levels tend to be associated
+with lower housing prices.
+
+Geographic features, including distance to San Francisco and Los Angeles
+as well as latitude and longitude, collectively contribute a substantial
+portion of the model's predictive power. This highlights the strong
+impact of proximity to major economic centers on housing prices.
+
+Structural attributes such as house age and room-related features show
+relatively lower importance, suggesting that while they affect prices,
+their influence is secondary compared to location and income factors.
+
+It is important to note that feature importance reflects predictive
+relevance rather than causal relationships.
+
